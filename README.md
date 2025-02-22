@@ -10,7 +10,7 @@
 
 A professional chatbot builder that allows small businesses to create custom AI chatbots using their FAQs and business information. Optimized for Apple Silicon (M1) Macs.
 
-## ✨ Features
+## 🌟 Features
 
 - 🤖 Easy-to-use interface for inputting business details and FAQs
 - 🧠 Automatic chatbot training using state-of-the-art NLP models
@@ -18,6 +18,25 @@ A professional chatbot builder that allows small businesses to create custom AI 
 - 📤 Export functionality for integration with various platforms
 - 📝 Comprehensive logging and error handling
 - 🏗️ Professional, modular codebase
+
+## 📦 Project Structure
+
+```
+📦 Custom_Chatbot_Builder
+ ┣ 📂 assets
+ ┃ ┣ 🖼️ chat_interface.png
+ ┃ ┗ 🖼️ training_interface.png
+ ┣ 📂 src
+ ┃ ┗ 📂 chatbot
+ ┃   ┣ 📂 api          ⚡️ REST API endpoints
+ ┃   ┣ 📂 config       ⚙️ Configuration files
+ ┃   ┣ 📂 data         🔄 Data processing modules
+ ┃   ┗ 📂 models       🧠 ML model training & inference
+ ┣ 📂 data
+ ┃ ┗ 📄 chatbot_export.json   💾 Training data & exports
+ ┣ 📄 requirements.txt        📦 Project dependencies
+ ┗ 📄 README.md              📚 Documentation
+```
 
 ## 🖼️ Screenshots
 
@@ -29,7 +48,7 @@ A professional chatbot builder that allows small businesses to create custom AI 
   <p><em>Training Interface - Configure and train your chatbot</em></p>
 </div>
 
-## 🚀 Installation
+## 🚀 Quick Start
 
 1. Clone the repository:
    ```bash
@@ -48,63 +67,12 @@ A professional chatbot builder that allows small businesses to create custom AI 
    pip install -r requirements.txt
    ```
 
-## 📁 Project Structure
-
-<div align="center">
-  <pre>
-  <code>
-📦 <b>Custom_Chatbot_Builder</b>
- ┣ 📂 <b>assets</b>
- ┃ ┣ 🖼️ chat_interface.png
- ┃ ┗ 🖼️ training_interface.png
- ┣ 📂 <b>src</b>
- ┃ ┗ 📂 <b>chatbot</b>
- ┃   ┣ 📂 <b>api</b>          ⚡️ REST API endpoints
- ┃   ┣ 📂 <b>config</b>       ⚙️ Configuration files
- ┃   ┣ 📂 <b>data</b>         🔄 Data processing modules
- ┃   ┗ 📂 <b>models</b>       🧠 ML model training & inference
- ┣ 📂 <b>data</b>
- ┃ ┗ 📄 chatbot_export.json   💾 Training data & exports
- ┣ 📄 requirements.txt        📦 Project dependencies
- ┗ 📄 README.md              📚 Documentation
-  </code>
-  </pre>
-</div>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">📂 <code>api/</code></td>
-      <td>RESTful API endpoints for chatbot interaction</td>
-    </tr>
-    <tr>
-      <td align="center">📂 <code>config/</code></td>
-      <td>Configuration settings and environment variables</td>
-    </tr>
-    <tr>
-      <td align="center">📂 <code>data/</code></td>
-      <td>Data processing, validation, and transformation</td>
-    </tr>
-    <tr>
-      <td align="center">📂 <code>models/</code></td>
-      <td>ML models for NLP and chatbot training</td>
-    </tr>
-  </table>
-</div>
-
-## 💻 Usage
-
-1. Start the Gradio interface:
+4. Start the application:
    ```bash
    python src/chatbot/api/app.py
    ```
 
-2. Open your browser and navigate to the displayed URL
-3. Input your business details and FAQs
-4. Train and test your custom chatbot
-5. Export the chatbot configuration for integration
-
-## 🛠️ Development
+## 💻 Development
 
 ```bash
 # Run tests
@@ -120,13 +88,22 @@ isort src/ tests/
 flake8 src/ tests/
 ```
 
+## 📘 Documentation
+
+Each component in the project structure serves a specific purpose:
+
+- `api/` - RESTful endpoints for chatbot interaction and data handling
+- `config/` - Environment variables and configuration management
+- `data/` - Data processing pipelines and transformations
+- `models/` - Machine learning models and training utilities
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/yourusername/custom-chatbot-builder/issues).
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## ⭐️ Show your support
 
