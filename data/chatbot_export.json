@@ -1,0 +1,20 @@
+{
+  "business_info": {
+    "name": "My Coffee Shop",
+    "industry": "restaurant"
+  },
+  "qa_pairs": [
+    {
+      "question": "What are your opening hours?",
+      "answer": "We're open from 7 AM to 8 PM daily."
+    },
+    {
+      "question": "Do you serve breakfast?",
+      "answer": "Yes, we serve breakfast from 7 AM to 11 AM."
+    },
+    {
+      "question": "Do you have wifi?",
+      "answer": "Yes, we offer free wifi to all customers."
+    }
+  ]
+}
