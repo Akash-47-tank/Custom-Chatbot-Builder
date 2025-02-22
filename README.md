@@ -8,7 +8,7 @@
 
 </div>
 
-A professional chatbot builder that allows small businesses to create custom AI chatbots using their FAQs and business information. Optimized for Apple Silicon (M1) Macs.
+A professional chatbot builder that allows small businesses to create custom AI chatbots using their FAQs and business information. 
 
 ## 🌟 Features
 
