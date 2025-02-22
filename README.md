@@ -50,20 +50,47 @@ A professional chatbot builder that allows small businesses to create custom AI 
 
 ## 📁 Project Structure
 
-Custom_Chatbot_Builder_for_Small_Businesses/
-├── assets/                    # Screenshots and images
-│   ├── chat_interface.png
-│   └── training_interface.png
-├── src/                      # Source code
-│   └── chatbot/
-│       ├── api/             # API endpoints
-│       ├── config/          # Configuration files
-│       ├── data/           # Data processing modules
-│       └── models/         # ML model training and inference
-├── data/                    # Training data and exports
-│   └── chatbot_export.json
-├── requirements.txt         # Project dependencies
-└── README.md               # Project documentation
+<div align="center">
+  <pre>
+  <code>
+📦 <b>Custom_Chatbot_Builder</b>
+ ┣ 📂 <b>assets</b>
+ ┃ ┣ 🖼️ chat_interface.png
+ ┃ ┗ 🖼️ training_interface.png
+ ┣ 📂 <b>src</b>
+ ┃ ┗ 📂 <b>chatbot</b>
+ ┃   ┣ 📂 <b>api</b>          ⚡️ REST API endpoints
+ ┃   ┣ 📂 <b>config</b>       ⚙️ Configuration files
+ ┃   ┣ 📂 <b>data</b>         🔄 Data processing modules
+ ┃   ┗ 📂 <b>models</b>       🧠 ML model training & inference
+ ┣ 📂 <b>data</b>
+ ┃ ┗ 📄 chatbot_export.json   💾 Training data & exports
+ ┣ 📄 requirements.txt        📦 Project dependencies
+ ┗ 📄 README.md              📚 Documentation
+  </code>
+  </pre>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">📂 <code>api/</code></td>
+      <td>RESTful API endpoints for chatbot interaction</td>
+    </tr>
+    <tr>
+      <td align="center">📂 <code>config/</code></td>
+      <td>Configuration settings and environment variables</td>
+    </tr>
+    <tr>
+      <td align="center">📂 <code>data/</code></td>
+      <td>Data processing, validation, and transformation</td>
+    </tr>
+    <tr>
+      <td align="center">📂 <code>models/</code></td>
+      <td>ML models for NLP and chatbot training</td>
+    </tr>
+  </table>
+</div>
 
 ## 💻 Usage
 
