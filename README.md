@@ -52,7 +52,7 @@ A professional chatbot builder that allows small businesses to create custom AI 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/custom-chatbot-builder.git
+   git clone https://github.com/Akash-47-tank/custom-chatbot-builder.git
    cd custom-chatbot-builder
    ```
 
